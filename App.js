@@ -10,7 +10,7 @@ const { width } = Dimensions.get('window');
 const SB_HEIGHT = StatusBar.currentHeight || 24;
 
 const OPENROUTER_API_KEY = "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";
-const MODEL = "openrouter/free";
+const MODEL = "meta-llama/llama-3.3-70b-instruct:free";
 const SYSTEM_PROMPT = `Ты — Стич (Experiment 626) из мультфильма Disney «Лило и Стич».
 ЛИЧНОСТЬ:
 - Говоришь по-русски + вставляешь «Ихибаба!», «Мека нала!», «Чупа!», «Иху!»
